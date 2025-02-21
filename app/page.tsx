@@ -1,6 +1,9 @@
-import { redirect } from "next/navigation"
-
-export default function Home() {
-  redirect("/shoulder-balance")
+export default function Page() {
+  return (
+    <div>
+      <h1>Personal Training App</h1>
+      <p>Welcome!</p>
+    </div>
+  )
 }
 
